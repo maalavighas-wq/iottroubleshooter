@@ -1,0 +1,65 @@
+TITLE: Smart Plug Troubleshooting Guide
+DOCUMENT: smart_plug_guide
+CATEGORY: smart_plug, connectivity, setup, configuration
+
+---
+
+SMART PLUG OFFLINE / NOT RESPONDING
+
+Symptom: Smart plug is shown as offline in the app, or the connected appliance does not turn on/off via the app.
+
+Step 1 – Check physical power:
+Ensure the smart plug is firmly inserted into the wall socket. Check that the socket is powered by testing it with another device (e.g., a lamp or phone charger).
+
+Step 2 – Check the plug's LED indicator:
+Most smart plugs have an LED indicator. A steady amber or red light usually means it is not connected to Wi-Fi. A steady blue or green light means it is connected and working. Refer to your plug's manual for indicator meanings.
+
+Step 3 – Power cycle the smart plug:
+Unplug the smart plug from the wall, wait 15 seconds, then plug it back in. Allow up to 60 seconds for it to reconnect to your network.
+
+Step 4 – Check your router and internet connection:
+Verify that your internet is working by opening a browser on another device. Restart your router if needed.
+
+Step 5 – Check Wi-Fi band compatibility:
+Smart plugs typically only support 2.4 GHz Wi-Fi. Ensure your phone is connected to the 2.4 GHz network before adding or re-adding the plug.
+
+Step 6 – Re-pair the plug in the app:
+Remove the plug from the app, then add it again using the manufacturer's app (e.g., TP-Link Kasa, Meross, Amazon Alexa, Google Home).
+
+---
+
+SMART PLUG SETUP / PAIRING FAILURE
+
+Symptom: App cannot discover or connect to the smart plug during setup.
+
+Step 1 – Reset the smart plug:
+Hold the physical button on the plug for 5–10 seconds until the LED flashes rapidly. This puts it into pairing mode.
+
+Step 2 – Check your phone's Wi-Fi:
+Connect your phone to the 2.4 GHz Wi-Fi network you want to use for the plug.
+
+Step 3 – Grant location and local network permissions:
+Allow the app to access your location and local network so it can discover nearby devices.
+
+Step 4 – Temporarily disable VPN on your phone:
+VPNs can block device discovery on the local network. Disable any active VPN before pairing.
+
+---
+
+SMART PLUG CONFIGURATION ISSUES
+
+Symptom: Schedule, automation, or energy monitoring features not working.
+
+Step 1 – Check app permissions:
+Ensure the app has necessary permissions (notifications, background refresh) to run automations reliably.
+
+Step 2 – Verify device time zone:
+In the app settings, verify the device's time zone is set correctly for schedules to trigger at the right time.
+
+Step 3 – Update the app:
+Check the App Store or Google Play for updates to the manufacturer's app.
+
+---
+
+SAFETY NOTE:
+Smart plugs have a maximum load rating (typically 10–16 A, 2300–3680 W). Never exceed this rating. Do not use smart plugs with high-power appliances such as ovens, tumble dryers, or electric heaters unless the plug is specifically rated for them. Unplug the smart plug before inspecting it.

@@ -1,0 +1,65 @@
+TITLE: Smart Camera Troubleshooting Guide
+DOCUMENT: smart_camera_guide
+CATEGORY: smart_camera, connectivity, setup, firmware
+
+---
+
+SMART CAMERA OFFLINE / NOT CONNECTING
+
+Symptom: Smart security camera shows as offline, does not stream, or cannot be accessed remotely.
+
+Step 1 – Check power:
+Ensure the camera is plugged in and powered. Check that the power indicator LED is on. For battery-powered cameras, check the battery level in the app.
+
+Step 2 – Check Wi-Fi signal at the camera location:
+Cameras require a stable Wi-Fi signal. Use a Wi-Fi analyser to check signal strength at the camera's location. Poor signal is the most common cause of camera connectivity issues.
+
+Step 3 – Power cycle the camera:
+Unplug the camera, wait 15 seconds, and plug it back in. Allow up to 60 seconds for it to reconnect.
+
+Step 4 – Check Wi-Fi band compatibility:
+Most indoor cameras support only 2.4 GHz Wi-Fi. Outdoor cameras increasingly support 5 GHz but may default to 2.4 GHz. Ensure the correct band is available on your router.
+
+Step 5 – Check your router and internet:
+Verify that other devices can access the internet. Restart your router if necessary.
+
+Step 6 – Re-pair the camera in the app:
+If connectivity issues persist, remove the camera from the app and re-add it. Follow the manufacturer's in-app setup procedure.
+
+---
+
+SMART CAMERA SETUP / PAIRING FAILURE
+
+Step 1 – Reset the camera:
+Hold the reset button (usually a small recessed button) for 5–10 seconds until the LED flashes, indicating the camera is in setup mode.
+
+Step 2 – Check phone Wi-Fi:
+Connect your phone to the 2.4 GHz Wi-Fi network before adding the camera in the app.
+
+Step 3 – Grant camera and microphone permissions:
+The app may require camera and microphone access on your phone to complete setup. Grant these when prompted.
+
+Step 4 – Scan the QR code:
+Many cameras use a QR code displayed on your phone's screen to transfer Wi-Fi credentials to the camera. Ensure the screen brightness is high and the camera can clearly see the code.
+
+---
+
+SMART CAMERA FIRMWARE UPDATE
+
+Step 1 – Update via the app:
+Open the manufacturer's app, navigate to camera settings, and look for a firmware update option.
+
+Step 2 – Ensure stable power and connection during update:
+Do not unplug the camera or disrupt the Wi-Fi during a firmware update.
+
+Step 3 – Allow time to complete:
+Firmware updates can take 3–10 minutes. The camera may restart automatically.
+
+---
+
+PRIVACY AND SAFETY NOTES:
+- Always change the default username and password on your camera using the manufacturer's app.
+- Enable two-factor authentication if the app supports it.
+- Ensure camera firmware is kept up to date to receive security patches.
+- Do not install cameras in private areas such as bedrooms or bathrooms.
+- Do not attempt to open or modify the camera hardware.

@@ -1,0 +1,63 @@
+TITLE: Device Pairing and General IoT Setup Guide
+DOCUMENT: device_pairing_guide
+CATEGORY: setup, pairing, all_devices, general
+
+---
+
+GENERAL IoT DEVICE PAIRING GUIDE
+
+This guide covers the common steps for pairing any new smart home device to your network.
+
+BEFORE YOU BEGIN:
+- Ensure your Wi-Fi router is working and broadcasting a 2.4 GHz network.
+- Have your Wi-Fi network name (SSID) and password ready.
+- Charge or plug in your smart device before starting.
+- Download the official manufacturer app (not a third-party app).
+- Make sure your phone is connected to the same 2.4 GHz network you want to use.
+
+STEP-BY-STEP PAIRING PROCESS:
+
+Step 1 – Download the official app:
+Search the App Store (iOS) or Google Play Store (Android) for the official app. Examples: TP-Link Kasa, Philips Hue, Amazon Alexa, Google Home, LIFX.
+
+Step 2 – Create or sign into your account:
+Most manufacturer apps require an account to manage devices.
+
+Step 3 – Grant required permissions:
+When prompted, allow the app to access: Location, Local Network, Bluetooth (if required), Notifications.
+
+Step 4 – Put the device into pairing mode:
+Power on the device. Many devices enter pairing mode automatically when first powered on. If setting up after a reset, the device may need to be factory reset first (see individual device guides).
+
+Step 5 – Follow in-app discovery:
+Tap "Add Device" or the "+" button in the app. Select your device type and follow the on-screen instructions.
+
+Step 6 – Enter Wi-Fi credentials:
+When prompted, enter your Wi-Fi network name and password (these are sent directly to the device; they are not stored by this application).
+
+Step 7 – Wait for connection:
+The app will communicate with the device and confirm successful pairing. This typically takes 30–90 seconds.
+
+Step 8 – Assign a name and room:
+Once paired, give the device a memorable name (e.g., "Living Room Lamp") and assign it to a room in the app.
+
+---
+
+COMMON PAIRING FAILURE CAUSES AND FIXES:
+
+- Wrong Wi-Fi band: The most common cause. Ensure phone is on 2.4 GHz.
+- VPN active on phone: Disable VPN before pairing.
+- Missing app permissions: Grant Location and Local Network access.
+- Device not in pairing mode: Factory reset the device and try again.
+- Wrong app: Use only the official manufacturer's app.
+- Router with AP isolation enabled: Disable AP (Access Point) isolation in router settings.
+- Too far from router: Move the device and phone closer to the router during setup.
+
+---
+
+FACTORY RESET METHODS (COMMON):
+- Rapid power cycle (bulbs, some plugs): Turn off and on 5 times quickly.
+- Hold button (plugs, cameras, speakers): Hold the reset button 5–10 seconds until LED flashes.
+- App reset (if accessible): Use the device settings menu in the app to factory reset.
+
+Note: Factory reset erases all device settings. You will need to re-pair the device and re-configure automations/schedules.

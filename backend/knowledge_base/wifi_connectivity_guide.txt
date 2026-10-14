@@ -1,0 +1,63 @@
+TITLE: Wi-Fi Connectivity Troubleshooting Guide
+DOCUMENT: wifi_connectivity_guide
+CATEGORY: connectivity, router, wifi, all_devices
+
+---
+
+GENERAL WI-FI CONNECTIVITY ISSUES FOR SMART HOME DEVICES
+
+Symptom: Smart home device cannot connect to Wi-Fi, shows as offline, or frequently disconnects.
+
+UNDERSTANDING SMART HOME WI-FI REQUIREMENTS:
+- Most smart home devices only support 2.4 GHz Wi-Fi (not 5 GHz).
+- 2.4 GHz provides longer range but lower speeds. 5 GHz provides faster speeds but shorter range.
+- If your router broadcasts a combined (dual-band) network with one name, smart devices may attempt to connect to 5 GHz and fail.
+
+Step 1 – Check that 2.4 GHz Wi-Fi is available:
+Log into your router's admin page (usually at 192.168.1.1 or 192.168.0.1) and confirm that the 2.4 GHz band is enabled. Ideally, give it a distinct network name (SSID) like "HomeNetwork_2.4G" so you can connect smart devices to it specifically.
+
+Step 2 – Check Wi-Fi password:
+Ensure you are entering the correct Wi-Fi password. Passwords are case-sensitive. Check your router label or admin page if unsure.
+
+Step 3 – Check DHCP availability:
+Your router assigns IP addresses to devices via DHCP. If too many devices are connected and the DHCP pool is full, new devices cannot join. Restart your router to clear stale DHCP leases.
+
+Step 4 – Check channel interference:
+Wi-Fi routers broadcast on channels within the 2.4 GHz band. If neighboring routers use the same channel, interference can occur. Log into your router and try changing the channel to 1, 6, or 11.
+
+Step 5 – Improve signal strength:
+Ensure the smart device is within range of your router. Walls, floors, and appliances (especially microwaves) can reduce signal strength significantly. Consider a Wi-Fi extender or mesh system for larger homes.
+
+Step 6 – Restart your router:
+Unplug your router from the power outlet, wait 30 seconds, and plug it back in. Wait 2 minutes for it to fully reconnect before attempting to pair devices.
+
+Step 7 – Check for MAC address filtering:
+Some routers restrict connections to devices with approved MAC addresses. If MAC filtering is enabled on your router, either disable it or add the smart device's MAC address to the allowed list.
+
+Step 8 – Check firewall settings:
+Overly restrictive router firewall settings can block smart home device communication. Consult your router's manual or support site for guidance on recommended smart home settings.
+
+---
+
+DEVICE FREQUENTLY DISCONNECTS FROM WI-FI
+
+Symptom: Device connects initially but keeps dropping offline.
+
+Step 1 – Check signal strength at the device location:
+Use a Wi-Fi analyser app on your phone to check the signal strength at the device's location. Signal should ideally be above -70 dBm for reliable connections.
+
+Step 2 – Check for router firmware updates:
+Log into your router's admin panel and check if a firmware update is available. Router firmware updates often include Wi-Fi stability improvements.
+
+Step 3 – Reduce Wi-Fi interference:
+Keep smart devices away from microwaves, cordless phones, and baby monitors, which can interfere with 2.4 GHz signals.
+
+Step 4 – Assign a static IP address:
+Some devices reconnect more reliably with a static (reserved) IP address. In your router's admin panel, find the DHCP reservation settings and assign a fixed IP to the device's MAC address.
+
+---
+
+ROUTER COMPATIBILITY NOTES:
+- Routers using WPA3 security only: Some older smart home devices only support WPA2. If your router is set to WPA3-only, change it to WPA2/WPA3 mixed mode.
+- Guest network isolation: If smart devices are on a guest network with client isolation enabled, they cannot communicate with your phone on the main network. Move smart devices to the main network.
+- IPv6: Some smart home devices do not support IPv6. Ensure IPv4 is enabled on your router.

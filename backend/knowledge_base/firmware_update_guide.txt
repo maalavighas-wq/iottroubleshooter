@@ -1,0 +1,67 @@
+TITLE: Firmware Update Guide for Smart Home Devices
+DOCUMENT: firmware_update_guide
+CATEGORY: firmware, all_devices, updates
+
+---
+
+SMART HOME DEVICE FIRMWARE UPDATES
+
+Firmware is the software embedded in your smart home device. Keeping firmware up to date ensures you have the latest security patches, bug fixes, and feature improvements.
+
+WHY UPDATE FIRMWARE:
+- Security patches protect your device from vulnerabilities.
+- Bug fixes resolve connectivity and stability issues.
+- New features may be added.
+- Compatibility with updated apps and platforms is maintained.
+
+HOW TO CHECK FOR FIRMWARE UPDATES:
+
+Method 1 – Via the manufacturer's app:
+Open the app, navigate to the device settings (usually by tapping the device name or a gear icon), and look for a "Firmware Update", "Software Update", or "Check for Updates" option.
+
+Method 2 – Automatic updates:
+Many smart home devices update automatically when connected to Wi-Fi and left powered on overnight. Check your app settings to ensure automatic updates are enabled.
+
+---
+
+FIRMWARE UPDATE BEST PRACTICES:
+
+Step 1 – Ensure stable power:
+Never unplug the device during a firmware update. Use a surge-protected power source if possible.
+
+Step 2 – Maintain Wi-Fi connection:
+Keep the device and your phone close to the router during the update to ensure a stable connection.
+
+Step 3 – Do not interrupt the process:
+Firmware updates typically take 2–10 minutes. The device may reboot automatically. Do not use the app to send commands during the update.
+
+Step 4 – Verify successful update:
+After the device restarts, check the app to confirm the firmware version has been updated.
+
+---
+
+FIRMWARE UPDATE FAILURE RECOVERY:
+
+Symptom: Device became unresponsive after a failed firmware update.
+
+Step 1 – Wait and retry:
+Some devices recover automatically if left powered on for 5–10 minutes. After waiting, check the app again.
+
+Step 2 – Power cycle:
+Unplug the device, wait 30 seconds, and plug back in. Some devices will resume an interrupted update on restart.
+
+Step 3 – Factory reset:
+If the device remains unresponsive, perform a factory reset using the physical reset method for your device type (see device-specific guide).
+
+Step 4 – Re-pair and update again:
+After factory reset, re-pair the device in the app and attempt the firmware update again with the device close to the router.
+
+Step 5 – Contact manufacturer support:
+If the device still does not work after factory reset and re-pairing, the firmware corruption may be unrecoverable via user-accessible methods. Contact the manufacturer's support for a replacement or repair option.
+
+---
+
+SAFETY NOTES:
+- Only apply firmware updates from the official manufacturer app or website.
+- Never download firmware files from unofficial sources.
+- A bricked (unresponsive) device after a failed update is typically a hardware/firmware issue, not an electrical hazard, but always unplug and handle with care.

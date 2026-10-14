@@ -1,0 +1,60 @@
+TITLE: Smart Speaker Troubleshooting Guide
+DOCUMENT: smart_speaker_guide
+CATEGORY: smart_speaker, connectivity, setup, audio
+
+---
+
+SMART SPEAKER OFFLINE / NOT RESPONDING
+
+Symptom: Smart speaker (e.g., Amazon Echo, Google Nest, Apple HomePod) is unresponsive or shows offline.
+
+Step 1 – Check power:
+Ensure the speaker is plugged in and its power indicator is on. Try a different power outlet.
+
+Step 2 – Power cycle the speaker:
+Unplug the speaker's power cable, wait 30 seconds, and plug it back in. Wait for the startup chime or light indicator showing it is ready.
+
+Step 3 – Check Wi-Fi connectivity:
+Verify that other devices on your network are working. Smart speakers require a stable 2.4 GHz or 5 GHz Wi-Fi connection (check your model's specifications).
+
+Step 4 – Check the companion app:
+Open the manufacturer's app (Amazon Alexa, Google Home, Apple Home). Check the device status. An "offline" status may resolve on its own after a network check.
+
+Step 5 – Re-connect to Wi-Fi:
+In the manufacturer's app, go to the speaker's settings and update the Wi-Fi network. Follow the in-app steps to reconnect the speaker to your network.
+
+---
+
+SMART SPEAKER SETUP / PAIRING FAILURE
+
+Step 1 – Download the official app:
+Setup must be completed through the official manufacturer app (e.g., Amazon Alexa, Google Home).
+
+Step 2 – Enable Bluetooth and location services on your phone:
+These are required for the app to discover the speaker during initial setup.
+
+Step 3 – Put the speaker in setup mode:
+Most speakers enter setup mode when powered on for the first time. For subsequent setups, use the factory reset procedure in the manual (often holding the mute button for 15+ seconds).
+
+Step 4 – Follow in-app setup instructions:
+The app will guide you through connecting the speaker to your Wi-Fi network. Ensure you are connecting to a compatible band.
+
+---
+
+SMART SPEAKER AUDIO ISSUES
+
+Symptom: Poor audio quality, echo, or distortion.
+
+Step 1 – Check volume and equalizer settings:
+Use the companion app to adjust volume and audio settings.
+
+Step 2 – Check placement:
+Avoid placing speakers in enclosed spaces, against walls, or near reflective surfaces. Place the speaker on a flat, stable surface in an open area.
+
+Step 3 – Reduce interference:
+Keep the speaker away from other electronics that may cause electromagnetic interference.
+
+---
+
+SAFETY NOTE:
+Do not use smart speakers in bathrooms, near water, or in wet conditions. Do not attempt to open the speaker casing.

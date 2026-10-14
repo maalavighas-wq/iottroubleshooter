@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-gray-100 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: #ec4899;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #f472b6;
+  }
+}

@@ -1,0 +1,68 @@
+TITLE: Smart Bulb Troubleshooting Guide
+DOCUMENT: smart_bulb_guide
+CATEGORY: smart_bulb, connectivity, setup, firmware
+
+---
+
+SMART BULB OFFLINE / NOT RESPONDING
+
+Symptom: Smart bulb shows as offline in the app or does not respond to commands.
+
+Step 1 – Check physical power:
+Ensure the bulb's wall switch or lamp switch is turned ON. Smart bulbs require constant power to maintain their Wi-Fi connection. If the switch was turned off, turn it back on and wait 30 seconds.
+
+Step 2 – Power cycle the bulb:
+Turn the bulb off using the physical switch, wait 10 seconds, then turn it back on. Allow up to 60 seconds for the bulb to reconnect to your network.
+
+Step 3 – Check your router and internet connection:
+Verify that other Wi-Fi devices in the same room are working. If your router is offline, restart it by unplugging it for 30 seconds, then plugging it back in.
+
+Step 4 – Check Wi-Fi band compatibility:
+Most smart bulbs only support 2.4 GHz Wi-Fi networks. If your router broadcasts both 2.4 GHz and 5 GHz with the same name (SSID), the bulb may have difficulty connecting. Use your router's admin panel to create a separate 2.4 GHz network.
+
+Step 5 – Check Wi-Fi signal strength:
+Ensure the bulb is within a reasonable range of your router (ideally within 10 metres). Walls, interference from microwaves, and other devices can reduce signal strength. Consider moving your router closer or using a Wi-Fi range extender.
+
+Step 6 – Re-pair the bulb to the app:
+Open the manufacturer's app (e.g., Philips Hue, LIFX, TP-Link Kasa). Delete the bulb from the app and follow the in-app pairing instructions to add it again.
+
+---
+
+SMART BULB SETUP / PAIRING FAILURE
+
+Symptom: The app cannot discover the bulb during setup.
+
+Step 1 – Put the bulb into pairing mode:
+Many bulbs enter pairing mode when first powered on, or after a factory reset. Rapidly switch the bulb on and off 5 times (on for 1 second, off for 1 second) to trigger a reset. The bulb should flash to indicate pairing mode.
+
+Step 2 – Ensure Bluetooth or Wi-Fi is enabled on your phone:
+Some bulbs require Bluetooth for initial pairing. Enable Bluetooth on your phone before launching the app.
+
+Step 3 – Grant location permission to the app:
+On Android and iOS, smart home apps require Location permission to scan for nearby devices on the local network.
+
+Step 4 – Connect your phone to the 2.4 GHz network:
+Before adding the bulb, make sure your phone is connected to the 2.4 GHz Wi-Fi network (not 5 GHz) that you intend to use for the bulb.
+
+---
+
+SMART BULB FIRMWARE UPDATE FAILURE
+
+Symptom: Firmware update fails, hangs, or the bulb becomes unresponsive after update.
+
+Step 1 – Ensure stable power during update:
+Never turn off the bulb during a firmware update. Make sure the power supply is stable.
+
+Step 2 – Keep the phone and bulb close to the router:
+A poor Wi-Fi connection can cause firmware downloads to fail. Move the bulb and phone close to the router during the update.
+
+Step 3 – Retry the update:
+Open the app, navigate to the bulb settings, and retry the firmware update.
+
+Step 4 – Factory reset if bulb is unresponsive:
+If the bulb stopped responding after a failed update, perform a factory reset using the rapid power-cycle method (5 times on/off) and re-pair it with the app.
+
+---
+
+SAFETY NOTE:
+Always switch off and unplug lamps before replacing or physically inspecting bulbs. Do not touch electrical wiring. Contact a qualified electrician if you suspect wiring problems.
